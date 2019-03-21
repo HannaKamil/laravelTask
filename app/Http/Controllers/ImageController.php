@@ -33,20 +33,20 @@ class ImageController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        $imagesDropZoneTable = new Image();
-
-        $image = $request->file('file');
-        $filename = rand().'.'.$image->getClientOriginalExtension();
-        $image->move(public_path('Cover_images') , $filename);
-
-        $imagesDropZoneTable->path = $filename;
-
-
-        $imagesDropZoneTable->save();
-        return redirect('/addNews');
-    }
+//    public function storeDropZoneImages(Request $request)
+//    {
+//        $imagesDropZoneTable = new Image();
+//
+//        $image = $request->file('file');   //'file' This is the default name to DropZone
+//        $filename = rand().'.'.$image->getClientOriginalExtension();
+//        $image->move(public_path('Cover_images') , $filename);
+//
+//        $imagesDropZoneTable->path = $filename;
+////        $imagesDropZoneTable->news_id = $id;
+//
+//        $imagesDropZoneTable->save();
+//        return redirect('/addNews');
+//    }
 
     /**
      * Display the specified resource.

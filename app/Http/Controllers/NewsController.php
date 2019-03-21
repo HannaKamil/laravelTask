@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\allNews;
+use App\Image;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
@@ -110,9 +111,14 @@ class NewsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(allNews $id)
     {
-        //
+//        $news = allNews::find($id);
+//        $news->delete();
+//        return back();
+
+        $id->delete();
+        return back();
     }
 
 
@@ -122,6 +128,22 @@ class NewsController extends Controller
               return view('news.showOne', compact('news'));
 
       }
+
+
+    public function storeDropZoneImages(Request $request, $id)
+    {
+        $imagesDropZoneTable = new Image();
+
+        $image = $request->file('file');   //'file' This is the default name to DropZone
+        $filename = rand().'.'.$image->getClientOriginalExtension();
+        $image->move(public_path('Cover_images') , $filename);
+
+        $imagesDropZoneTable->path = $filename;
+        $imagesDropZoneTable->news_id = $id;
+
+        $imagesDropZoneTable->save();
+        return redirect('/addNews');
+    }
 
 
 

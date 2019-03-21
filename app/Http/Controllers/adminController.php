@@ -6,6 +6,7 @@ use App\allNews;
 use App\Category;
 use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Input;
 
@@ -66,6 +67,27 @@ class adminController extends Controller
 
         else
             return view('searchResults.nodetailsfound');
+    }
+
+
+
+
+
+
+    public function adminLogin(){
+
+        return view('admin.loginAdmin');
+    }
+
+    public function adminLogin_post(){
+
+        $remember  = request()->has('remember')?true:false;
+        if (Auth::guard('adminGuard')->attempt(['email'=>Request('email'), 'password'=>request('password')], $remember)){
+            return redirect('/control');
+        }else{
+            return back();
+        }
+
     }
 
 

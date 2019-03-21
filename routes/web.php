@@ -1,19 +1,10 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::get('/', function () {
     return view('welcome');
 });
+
 
 Auth::routes();
 
@@ -24,8 +15,11 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 //===============Jesus work===========
+Route::group(['middleware' => 'checkRegister'], function () {
+
 
 Route::get('/control', 'adminController@adminPage');
+
 Route::get('/index' , 'adminController@adminPage');
 
 //settings
@@ -54,6 +48,7 @@ Route::post('/addNews' , 'NewsController@store');
 Route::get('/allNews' , 'NewsController@show');
 
 Route::get('/showNew/{id}', 'NewsController@showNew');
+Route::get('/delNew/{id}', 'NewsController@destroy');
 
 
 //search
@@ -62,4 +57,19 @@ Route::any('/search', 'adminController@search');
 
 
 //dropZone Images
-Route::post('/dropZone' , 'ImageController@store');
+Route::post('/dropZone/{id}' , 'NewsController@storeDropZoneImages');
+
+}); // end middleWare group check if Register
+
+
+//check admin
+//Route::group(['middleware' => 'checkAdmin:adminGuard'], function () {
+//    Route::get('/control', 'adminController@adminPage');
+//
+//});// end middleWare group check if admin
+
+
+//Route::get('/admin/login' , 'adminController@adminLogin');
+//Route::post('/admin/login' , 'adminController@adminLogin_post');
+
+

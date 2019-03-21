@@ -24,7 +24,7 @@
 
                 <td>{{$all->category_name}}</td>
                 <td>{{$all->content}}</td>
-                <td><button class="btn btn-primary"><a href="/editNew/{{$all->id}}" style="color: white; text-decoration: none;">Edit</a></button></td>
+                {{--<td><button class="btn btn-primary"><a href="/editNew/{{$all->id}}" style="color: white; text-decoration: none;">Edit</a></button></td>--}}
                 <td><button class="btn btn-danger"><a href="/delNew/{{$all->id}}" style="color: white;text-decoration: none;">Delete</a></button></td>
                 <td><button class="btn btn-primary"><a href="/showNew/{{$all->id}}" style="color: white; text-decoration: none;">Show</a></button></td>
             </tr>

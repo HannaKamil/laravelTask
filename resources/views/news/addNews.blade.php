@@ -46,11 +46,20 @@
 
 
 
-
-  <form action="/dropZone" class="dropzone" id="myDropzoneForm">
+  <?php $news = \Illuminate\Support\Facades\DB::table('all_news')->get(); ?>
+  @foreach($news as $new)
+  <form action="/dropZone/{{$new->id}}" class="dropzone" id="myDropzoneForm">
     {{csrf_field()}}
 
 
-  </form>
+    <div>news:</div>
 
+    <select name="category_form" required>
+      <option value=""> Select news No.</option>
+
+        <option value="{{$new->id}}">{{$new->id}}</option>
+
+    </select>
+  </form>
+  @endforeach
 @endsection
