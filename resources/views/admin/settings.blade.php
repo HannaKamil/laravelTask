@@ -7,12 +7,14 @@
 
     <div id="content-wrapper">
 
+
     <form action="/settings" method="post">
       {{csrf_field()}}
 
 
+
       <span>Site Name:</span><br>
-      <input name="form_site_name"  type="text" placeholder="Site Name" size="70" required><br><br>
+      <input name="form_site_name" type="text" placeholder="Site Name" size="70" required><br><br>
 
 
       <span>Site Email address:</span><br>
