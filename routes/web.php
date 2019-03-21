@@ -73,3 +73,9 @@ Route::post('/dropZone/{id}' , 'NewsController@storeDropZoneImages');
 //Route::post('/admin/login' , 'adminController@adminLogin_post');
 
 
+Route::get('/logOutAdmin', function () {
+    auth()->logout();
+    return redirect('/login');
+});
+
+

@@ -2,22 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ea35805-1710-42e8-abe9-eef949bbf0c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/loginAdmin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/NewsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/adminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/adminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_20_125108_create_images_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_20_125108_create_images_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Cover_images/1148423092.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Cover_images/1896903376.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Cover_images/288309033.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Cover_images/411673382.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/Cover_images/613150946.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news/addNews.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/addNews.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/news/allNews.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/news/allNews.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/1043506653.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/1065522993.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/1337097343.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/1390583730.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/1405003223.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/1619731197.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/1875688001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/307108951.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/383700392.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/402472921.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/472744752.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/546700294.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/672173449.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/757480913.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/786068550.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/84808536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Cover_images/983193672.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/include/adminMaster.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/include/adminMaster.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +36,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-372">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="328">
+              <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1520">
+              <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/include/adminMaster.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2140">
+              <caret line="128" column="27" selection-start-line="128" selection-start-column="27" selection-end-line="128" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -91,7 +123,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_03_18_094414_create_categories_table.php" />
         <option value="$PROJECT_DIR$/app/Category.php" />
         <option value="$PROJECT_DIR$/app/AllNew.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/searchResults/nodetailsfound.blade.php" />
         <option value="$PROJECT_DIR$/public/css/mystyle.css" />
         <option value="$PROJECT_DIR$/app/User.php" />
@@ -101,11 +132,9 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_03_19_205501_create_settings_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SettingController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/settings.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/include/adminMaster.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_18_161854_create_all_news_table.php" />
         <option value="$PROJECT_DIR$/app/allNews.php" />
         <option value="$PROJECT_DIR$/app/Image.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ImageController.php" />
         <option value="$PROJECT_DIR$/resources/views/news/addNews.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/news/showOne.blade.php" />
@@ -125,6 +154,9 @@
         <option value="$PROJECT_DIR$/resources/views/admin/loginAdmin.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/adminController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/include/adminMaster.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/index.blade.php" />
       </list>
     </option>
   </component>
@@ -221,7 +253,7 @@
       <path value="$PROJECT_DIR$/vendor/zendframework/zend-diactoros" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="341" />
     <option name="y" value="67" />
     <option name="width" value="779" />
@@ -275,6 +307,11 @@
             <path>
               <item name="task" type="b2602c69:ProjectViewProjectNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,6 +333,20 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,12 +416,12 @@
       <workItem from="1553070652823" duration="15088000" />
       <workItem from="1553115264210" duration="8332000" />
       <workItem from="1553165327392" duration="105000" />
-      <workItem from="1553165479595" duration="15840000" />
+      <workItem from="1553165479595" duration="20454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128823000" />
+    <option name="totallyTimeSpent" value="133437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,24 +493,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/settings.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/include/adminMaster.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -571,20 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
           <caret line="74" column="52" lean-forward="true" selection-start-line="74" selection-start-column="52" selection-end-line="74" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="63" column="83" selection-start-line="63" selection-start-column="77" selection-end-line="63" selection-end-column="83" />
         </state>
       </provider>
     </entry>
@@ -711,6 +734,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/adminController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -721,10 +751,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="200">
+          <caret line="9" column="150" selection-start-line="9" selection-start-column="150" selection-end-line="9" selection-end-column="150" />
+          <folding>
+            <element signature="e#282#365#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="74" column="27" lean-forward="true" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/include/adminMaster.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2140">
+          <caret line="128" column="27" selection-start-line="128" selection-start-column="27" selection-end-line="128" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
         </state>
       </provider>
     </entry>

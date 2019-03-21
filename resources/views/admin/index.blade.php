@@ -14,8 +14,13 @@
                 <div class="card-body-icon">
                   <i class="fas fa-fw fa-list"></i>
                 </div>
-                <div class="mr-5">Category Count</div>
-                <div class="mr-5 ">{{count($categories)}}</div>
+                <div class="mr-5 text-center">Category Count</div>
+                @if (count($categories)>0)
+                  <div class="mr-5 text-center"><b>{{count($categories)}}</b></div>
+
+                @else
+                  <div class="mr-5 text-center"><b>No Categoy added</b></div>
+                @endif
               </div>
               <a class="card-footer text-white clearfix small z-1" href="/allCategories">
                 <span class="float-left">View Details</span>
@@ -34,8 +39,15 @@
                 <div class="card-body-icon">
                   <i class="fas fa-fw fa-life-ring"></i>
                 </div>
-                <div class="mr-5">News Count</div>
-                <div class="mr-5">{{count($allNews)}}</div>
+                <div class="mr-5 text-center">News Count</div>
+                @if (count($allNews)>0)
+                  <div class="mr-5 text-center"><b>{{count($allNews)}}</b></div>
+
+                @else
+                  <div class="mr-5 text-center"><b>No News Found</b></div>
+                @endif
+
+
               </div>
               <a class="card-footer text-white clearfix small z-1" href="/allNews">
                 <span class="float-left">View Details</span>

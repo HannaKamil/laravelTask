@@ -7,7 +7,7 @@
             <div class="card">
                 <div  class="card-header">Dashboard</div>
 
-                <button class="alert-danger"><a href="/control">Control Panel</a></button>
+                <button  class="alert-info"><a style="text-decoration: none; font-weight: bold; font-size: 18px; color: red;" href="/control">To Admin Panel</a></button>
 
 
                 <div class="card-body">
